@@ -9,10 +9,6 @@ Command Line Ultimate Tic Tac Toe Game - (OOP JAVA)
 6. For more information, visit https://ultimate-t3.herokuapp.com/rules 
 7. The only difference my game makes is that you can't pick a new Board if the current Board is won. You are still forced to play in this Board even though that renders your move useless. You can only pick a new Board if the current Board is completely full. This new component adds a new and more unique type of strategy that isn't present in typical Ultimate Tic Tac Toe games. 
 
-How to Start?
-1 : Human vs. Human 
-2 : Human vs. Computer 
-3 : Computer vs. Computer 
 
 
 
