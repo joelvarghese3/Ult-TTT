@@ -7,8 +7,8 @@ Hello, and welcome to my Ultimate Tic Tac Toe project. I have developed an objec
 
 Features that my game has: 
 -	Human vs. Human game mode 
--	Human vs. AI game mode (human can choose whether human or AI plays first move) 
--	AI v. AI game mode (instantly simulates game between two AI players) 
+-	Human vs. Computer game mode (human can choose whether human or computer plays first move) 
+-	Computer vs. Computer game mode (instantly simulates game between two AI players) 
 -	Prints the entire Ultimate Board after each move 
 -	Prints which board the game is currently in after each move 
 -	Prints the open boxes available in the current board after each move 
@@ -19,10 +19,8 @@ Features that my game has:
 -	Input validation so that human and AI players cannot pick box or board numbers that are 
 already full (forces them to keep picking until they choose a box or board that isn’t full) 
 -	Human players have the ability to add their name to their player (their name will be printed every time they make a move or win a game) 
+-	Command Line User Interface  
 
-Features that my game doesn’t have: 
--	Smart AI that beats regular AI or Human every time 
--	no GUI since this is a fully Command Line Game 
 
 
 
