@@ -218,6 +218,10 @@ public class Game {
                 // If any winners are found, adds winners to new char[] box9
                 UltBoard.printSmallWins(box9);
                 // If any winners are found, prints winners of each specific Board onto the screen
+                
+                if (UltBoard.foundWinner(box9)){ // IF player one wins, then this prevents player 2 from taking another turn and breaks the loop
+                            break; 
+                        }
 
                 // SWITCH PLAYERS Player 2 is now playing
                 rotatingBoard = boxNum;
@@ -420,6 +424,10 @@ public class Game {
                     UltBoard.printUltimateBoard();
                     UltBoard.addSmallWins(boards, box9);
                     UltBoard.printSmallWins(box9);
+                    
+                    if (UltBoard.foundWinner(box9)){ // IF player one wins, then this prevents player 2 from taking another turn and breaks the loop
+                            break; 
+                        }
                     // NOW THE COMPUTER'S TURN
                     rotatingBoard = boxNum;
                     if (boards[rotatingBoard].isFull(boards[rotatingBoard].getBox())) {
@@ -540,6 +548,10 @@ public class Game {
                     UltBoard.printUltimateBoard();
                     UltBoard.addSmallWins(boards, box9);
                     UltBoard.printSmallWins(box9);
+                    
+                     if (UltBoard.foundWinner(box9)){ // IF player one wins, then this prevents player 2 from taking another turn and breaks the loop
+                            break; 
+                        }
 
                     // SWITCH PLAYERS
                     //HUMAN PLAYER IS NEXT
@@ -675,6 +687,10 @@ public class Game {
                 // checks for winners on smallBoards and adds them to char[] box9 if found
                 UltBoard.printSmallWins(box9);
                 // prints winners of smallBoards if any are found
+                
+                 if (UltBoard.foundWinner(box9)){ // IF player one wins, then this prevents player 2 from taking another turn and breaks the loop
+                    break; 
+                }
 
                 // SWITCH PLAYERS Note: all logic for Player 2 is the same as Player 1
                 rotatingBoard = boxNum;
